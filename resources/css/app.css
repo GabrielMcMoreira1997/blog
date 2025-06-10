@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Se quiser definir fontes customizadas via Tailwind, use um plugin ou altere tailwind.config.js */

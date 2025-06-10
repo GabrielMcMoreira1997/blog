@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-Thin.ttf");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-ThinItalic.ttf");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-ExtraLight.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-ExtraLightItalic.ttf");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-MediumItalic.ttf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-SemiBoldItalic.ttf");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KantumruyPro';
+    src: url("../fonts/KantumruyPro-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    font-family: 'KantumruyPro', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #E5E7EB; /* cor clara para fundo escuro */
+    margin: 0;
+    padding: 0;
+    background-color: #111827 !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234b5563' fill-opacity='0.14'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'KantumruyPro', sans-serif;
+    font-weight: 700;
+    color: #E5E7EB;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #E5E7EB;
+}
+
+/* Links */
+a {
+    font-weight: 500;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.container{
+    background-color: #192339 !important;
+    border-left: 1px solid #4b5563 !important;
+    border-right: 1px solid #4b5563 !important;
+    height: 100% !important;
+}
+
+.list-group-item {
+    background-color: #192339 !important;
+    border: 1px solid #4b5563 !important;
+    color: #f9fafb !important;
+
+    &:hover {
+        background-color: #3f4753 !important;
+        color: #f9fafb !important;
+    }
+
+    & a {
+        display: block;
+        text-decoration: none !important;
+        color: #9CA3AF !important;
+    }
+
+    & span{
+        /* BADGE */
+        color: #9CA3AF !important;
+        background-color: #4B5563 !important;
+        border-radius: 0.5rem !important; /* Reduzi o raio */
+        padding: 0.1rem 0.2rem !important; /* Reduzi o padding */
+        font-size: 0.875rem !important; /* Reduzi o tamanho da fonte */
+    }
+
+    & small{
+        font-size: 0.7rem;
+        color: #9ca3af;
+    }
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.email{
+    background-color: transparent !important;
+    color: #E5E7EB !important;
+}
+
+.list-item{
+    border-radius: inherit;
+}
+
+.list-item-header{
+
+    border-radius: inherit;
+
+    & img{
+        border-radius: inherit;
+        width: 150px;
+        height: 150px;
+        filter: grayscale(1);
+        object-fit: cover;
+        display: block;
+    }
+}
+.list-item-content {
+    flex: 1;
+
+    & a{
+        font-size: 20px;
+    }
+}
+
+code {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+}
