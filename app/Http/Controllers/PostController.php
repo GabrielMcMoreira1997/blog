@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\NewPost;
 use Illuminate\Http\Request;
+use App\Models\NewslatterMail;
 use App\Models\Post;
 use App\Models\PostContent;
 use App\Models\Category;
 use App\Models\Tag;
+use Illuminate\Support\Facades\Mail;
 
 class PostController extends Controller
 {
@@ -58,7 +61,6 @@ class PostController extends Controller
         } catch (\Illuminate\Validation\ValidationException $e) {
             dd($e->errors());
         }
-    
         // Criar o slug
         $validatedData['slug'] = str_slug($validatedData['title'], '_', 'pt-BR');
         $validatedData['status'] = 'draft'; // Status padrão
@@ -102,6 +104,13 @@ class PostController extends Controller
         } else {
             return redirect()->back()->with('error', 'Erro ao salvar o conteúdo');
         }
+
+
+        $mail = NewslatterMail::where('active', true)->get();
+        foreach ($mail as $m) {
+            Mail::to($m->email)->send(new NewPost($request,$m->email, $imgHeader, $validatedData['slug']));
+        }
+
     
         return redirect()->route('posts.show', ['slug' => $post->slug]);
     }

@@ -15,7 +15,7 @@ class EmailController extends Controller
         $existingMail = NewslatterMail::where('email', $request->email)->first();
 
         if ($existingMail) {
-            return redirect('/')->with([
+            return back()->with([
                 'message' => 'Este e-mail já está inscrito em nossa newsletter. Fique ligado(a) nas novidades! 😉',
                 'status' => false
             ]);
@@ -26,7 +26,7 @@ class EmailController extends Controller
                 'email' => 'required|email', 
             ]);
         } catch (ValidationException $e) {
-            return redirect('/')->withErrors($e->errors())->withInput();
+            return back()->withErrors($e->errors())->withInput();
         }
 
         $mail = new NewslatterMail();
@@ -41,13 +41,13 @@ class EmailController extends Controller
             Mail::to($mail->email)->send(new Register($mail->email));
         } catch (\Exception $e) {
 
-            return redirect('/')->with([
+            return back()->with([
                 'message' => 'Ocorreu uma inconsistência ao confirmar seu e-mail. Por favor, tente novamente mais tarde. 😥',
                 'status' => false
             ]);
         }
 
-        return redirect('/')->with([
+        return back()->with([
             'message' => 'Inscrição realizada com sucesso! Você receberá um e-mail de confirmação em breve. 🎉',
             'status' => true
         ]);
