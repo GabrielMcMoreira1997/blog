@@ -1,61 +1,67 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# About Software
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Sobre o Projeto
 
-## About Laravel
+O **About Software** é um blog pessoal e técnico, criado com o propósito de compartilhar conhecimento e insights adquiridos ao longo da minha jornada de estudos e desenvolvimento. Aqui você encontrará postagens sobre diversos tópicos técnicos, explorando alguns conceitos e novas tecnologias.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Funcionalidades Principais
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Este blog oferece uma experiência completa tanto para o criador de conteúdo quanto para o leitor:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+  * **Gestão de Postagens (CRUD Completo):** Uma interface robusta para criar, ler, atualizar e excluir postagens de forma intuitiva, permitindo total controle sobre o conteúdo do blog.
+  * **Autenticação Segura:** Implementado com **Laravel Breeze**, garante um sistema de autenticação confiável para acesso administrativo.
+  * **Edição de Conteúdo Rica:** Utiliza o **CKEditor** para uma experiência de escrita aprimorada, com formatação avançada e fácil inserção de mídias.
+  * **Sistema de Newsletter:** Mantenha seus leitores atualizados com o envio automático de e-mails para novos posts e confirmação de inscrição.
 
-## Learning Laravel
+## Tecnologias Utilizadas
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+O About Software foi desenvolvido com um stack moderno e eficiente:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+  * **Backend:** PHP 11.x com **Laravel** (Framework).
+  * **Autenticação:** Laravel Breeze.
+  * **Banco de Dados:** **MariaDB** para persistência dos dados.
+  * **Frontend:** HTML, CSS personalizado com **Bootstrap** para responsividade e um visual clean.
+  * **Edição de Texto:** CKEditor 5.
+  * **E-mails:** Sistema de envio de e-mails transacionais (Confirmação de Newsletter e Notificação de Novo Post).
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Visualizações do Projeto
 
-## Laravel Sponsors
+Dê uma olhada em algumas telas do blog:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Tela inicial
 
-### Premium Partners
+![tela-inicial](https://github.com/GabrielMcMoreira1997/blog/blob/master/readme_assets/inicial.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+Tela inicial do projeto, nela estão listados todos as postagens.
 
-## Contributing
+### Tela de Leitura de Postagem
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Ao clicar em uma postagem, o usuário é direcionado para a tela de leitura, com o conteúdo formatado e pronto para ser consumido.
 
-## Code of Conduct
+![tela-leitura](https://github.com/GabrielMcMoreira1997/blog/blob/master/readme_assets/leitura.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Política de Privacidade
 
-## Security Vulnerabilities
+Uma página dedicada à política de privacidade, garantindo transparência e conformidade com as diretrizes de proteção de dados.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![tela-politica-privacidade](https://github.com/GabrielMcMoreira1997/blog/blob/master/readme_assets/politica_privacidade.png)
 
-## License
+### E-mail de Confirmação de Newsletter
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Quando um novo usuário se inscreve na newsletter, ele recebe um e-mail de confirmação elegante e informativo.
+
+![tela-confirmacao](https://github.com/GabrielMcMoreira1997/blog/blob/master/readme_assets/email_confirmacao.png)
+
+
+### E-mail de Notificação de Novo Post
+
+Seus assinantes são notificados automaticamente por e-mail sempre que um novo conteúdo é publicado no blog.
+
+![tela-novo-post](https://github.com/GabrielMcMoreira1997/blog/blob/master/readme_assets/email_novo_post.png)
+
+
+### Tela de Desinscrição da Newsletter
+
+Oferecemos uma opção clara e simples para que os usuários possam cancelar a inscrição na newsletter a qualquer momento.
+
+![tela-desinscricao](https://github.com/GabrielMcMoreira1997/blog/blob/master/readme_assets/tela_desinscricao.png)
