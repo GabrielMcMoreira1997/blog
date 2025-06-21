@@ -242,3 +242,10 @@ code {
     border-radius: 4px;
     font-family: monospace;
 }
+
+.category-name{
+    font-weight: 600;
+    color: #E5E7EB;
+    font-size: 0.7rem !important;
+    margin-bottom: 0.5rem;
+}
